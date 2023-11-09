@@ -1,0 +1,81 @@
+.container{
+    background-color:white;
+    margin: 10px;
+    display:flex;
+    flex-direction:row;
+   
+}
+.image{
+    background-image:url("https://res.cloudinary.com/dypseaxyj/image/upload/v1699448070/bg-sidebar-desktop_rauyvm.svg");
+   height: 100vh;
+   width: 50vh;
+    background-size:cover;
+    padding:10px;
+    border-radius: 10px;
+}
+.one{
+    
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #6634db;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        color: #ffffff;
+        margin-right: 10px;
+    }
+
+    .card{
+        display:flex;
+        align-items:center;
+        margin:30px;
+
+    }
+.info{
+    font-size:16px;
+    color:white;
+    
+}
+.personalcard{
+    margin-left:50px;
+    padding: 7px;
+}
+.main-h{
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom:0px;
+}
+.main-p{
+font-size:15px;
+margin-top:4px;
+margin-bottom: 10px;
+}
+
+.name{
+    font-size: 16px;
+    font-weight:bold;
+    margin-top:35px;
+}
+.input{
+    height: 30px;
+    width: 400px;
+   border-radius: 5px;
+    border-width:1px;
+}
+.button{
+    height: 40px;
+    width: 100px;
+    background-color:#3D30A2;
+    color:white;
+    border-radius: 7px;
+    border-width:0px;
+    margin-top: 70px;
+    
+}
+.button-card{
+    display:flex;
+    flex-directon:row;
+    justify-content:flex-end;
+}
