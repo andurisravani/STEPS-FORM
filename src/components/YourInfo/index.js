@@ -1,7 +1,6 @@
 import {useState,useEffect} from "react"
 
-
-
+import {Link} from "react-router-dom"
 import "./index.css"
 
 const YourInfo = () => {
@@ -51,19 +50,23 @@ const YourInfo = () => {
             <div className="image">
                 <div class="card">
                 <div className="one">1</div>
-                <div className="info">YOUR INFO</div>
+                <div className="info">
+                  <Link to="/">YOUR INFO</Link></div>
                 </div>
                 <div class="card">
                 <div className="one">2</div>
-                <div className="info">SELECT PLAN</div>
+                <div className="info">
+                  <Link to="/SelectPlan">SELECT PLAN</Link></div>
                 </div>
                 <div class="card">
                 <div className="one">3</div>
-                <div className="info">ADD-ONS</div>
+                <div className="info">
+                  <Link to="/AddOns">AddOns</Link></div>
                 </div>
                 <div class="card">
                 <div className="one">4</div>
-                <div className="info">SUMMARY</div>
+                <div className="info">
+                  <Link to="/Summary">SUMMARY</Link></div>
                 </div>
 
                 
